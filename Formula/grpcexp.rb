@@ -34,6 +34,11 @@ class Grpcexp < Formula
   end
 
   test do
-    assert_match "grpcexp", shell_output("#{bin}/grpcexp --help")
+    assert_match version.to_s, shell_output("#{bin}/grpcexp version")
+  end
+
+  livecheck do
+    url :stable
+    strategy :github_latest
   end
 end
