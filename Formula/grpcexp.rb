@@ -3,29 +3,29 @@ class Grpcexp < Formula
   homepage "https://github.com/prnvbn/grpcexp"
   license "MIT"
 
-  version "0.0.8"
+  version "0.0.9"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/grpcexp/releases/download/v#{version}/grpcexp-darwin-arm64"
-      sha256 "712ffeb42510674ba53a7faac7ecb9958c762635e8e49a723a6854b19f432fcf"
+      sha256 "1861de97782152fbacf244aa61a8b70d55b6085d7f130a3741c833821d0c2f67"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/grpcexp/releases/download/v#{version}/grpcexp-darwin-amd64"
-      sha256 "dbc4748fd62ec363a94368b6e9ac1a834a4d8f0be6cd0813f16d24b0810f373f"
+      sha256 "81a832982b4b88ef5d52e55a858562273fde8c5cda2c0791c82a33db778d4f13"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/grpcexp/releases/download/v#{version}/grpcexp-linux-arm64"
-      sha256 "a20e2770040a483d36142cc40a1a3ea4cb0b298c5b3c58ca6c4b3e419f721512"
+      sha256 "aba8e2806b1f03c056bf3f0a65e22db80930aa19094a7880df1ef7a9257e7cf0"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/grpcexp/releases/download/v#{version}/grpcexp-linux-amd64"
-      sha256 "001da103f13c85c39cb711190ca8cd645ec28206ef9c0273f330fe3547564bc7"
+      sha256 "95c7aa7d99432f974a6ed98df87207fd5657f40b799ec01c0a1ad45fb5693344"
     end
   end
 
