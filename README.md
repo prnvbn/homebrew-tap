@@ -37,4 +37,5 @@ With the following commands, you can install the latest generally available (GA)
 brew install prnvbn/tap/bus
 brew install prnvbn/tap/clocks
 brew install prnvbn/tap/grpcexp
+brew install prnvbn/tap/protoc-gen-sbe-xml
 ```
