@@ -38,4 +38,5 @@ brew install prnvbn/tap/bus
 brew install prnvbn/tap/clocks
 brew install prnvbn/tap/grpcexp
 brew install prnvbn/tap/protoc-gen-sbe-xml
+brew install prnvbn/tap/idgen
 ```
