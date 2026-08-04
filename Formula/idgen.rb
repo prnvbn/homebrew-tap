@@ -2,29 +2,29 @@ class Idgen < Formula
   desc "cli tool to create uuids"
   homepage "https://github.com/prnvbn/idgen"
 
-  version "0.1.0"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/idgen/releases/download/v#{version}/idgen-darwin-arm64"
-      sha256 "1eb79af3563522d69b36f4283cf676de452df196134fcb4f0bbbdb59fcb585b0"
+      sha256 "471007859fdc3772154af65a7e94c0ce853b22515460fc5dc8e6f5b4a47cf0cc"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/idgen/releases/download/v#{version}/idgen-darwin-amd64"
-      sha256 "ad98439b2757314e56b0a8b58559137d829687fb122b8b8adb034ee003d49e9c"
+      sha256 "cad09f110f494496097daa73e0bd24737612799d0a454012129c593fc894c0dd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/idgen/releases/download/v#{version}/idgen-linux-arm64"
-      sha256 "f6b5ec073885e489867527351cb04ef462ccd3d55a844df7a7a8e86e9d783db5"
+      sha256 "a478f56702fd107b83ee52e29c03e653a671867167eab3bce756c05387bd29f7"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/idgen/releases/download/v#{version}/idgen-linux-amd64"
-      sha256 "bf222302e1bd80bf68c4474f33b8c66ccc35c341427c69823146414a51a328c0"
+      sha256 "a43a02aa804ed3a02fca6e721e5133b069f5106a331bffdacbbb0e37b60e106a"
     end
   end
 
