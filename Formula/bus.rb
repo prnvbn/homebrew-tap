@@ -3,29 +3,29 @@ class Bus < Formula
   homepage "https://github.com/prnvbn/bus"
   license "MIT"
 
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/bus/releases/download/v#{version}/bus-darwin-arm64"
-      sha256 "87b06fac35eca73c92e631d256d16e31f4914f8b64d0594624ff1516bf06a707"
+      sha256 "44ff921e1b7ff9e8435f8a6a38de3493fb8484b0177aff692378383d2f590859"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/bus/releases/download/v#{version}/bus-darwin-amd64"
-      sha256 "a54b72bc17f6e3adb8c409e1e8d293225d5a91454769bc18e33d0fed17d9bf4f"
+      sha256 "d074448b3976b620ae2144b90214e1b8c3401a25a06ce791b7eb1e004d8e7da3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/bus/releases/download/v#{version}/bus-linux-arm64"
-      sha256 "f93024e7cad75e734a3a715094378e0f8659b0831410dfca7a06f2a6397f73c4"
+      sha256 "c3ca805ada45116b4a7b03043222cb2f8669834cafca663e366ff98ddc773d79"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/bus/releases/download/v#{version}/bus-linux-amd64"
-      sha256 "62ff895e222e4e027dd3c07ec91ff02b012f03565daa9b496541f348e74254f5"
+      sha256 "143de017ac29d147638028bde468fa3e42c1e78aa39493cf01ac92052b0b9776"
     end
   end
 
