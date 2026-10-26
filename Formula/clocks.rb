@@ -3,29 +3,29 @@ class Clocks < Formula
   homepage "https://github.com/prnvbn/clocks"
   license "MIT"
 
-  version "0.9.0"
+  version "0.10.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/clocks/releases/download/v#{version}/clocks-darwin-arm64"
-      sha256 "3bb6c6bf2909b4b8ca5427bf5c3b71e2ee51fc9df4ebd750a0fde41b6825d1c1"
+      sha256 "204f2d26b2e642cbefecead485f8b12106c784ccea335c4f09632fef0844ce0c"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/clocks/releases/download/v#{version}/clocks-darwin-amd64"
-      sha256 "b5906c250d8f6e5a279ae24bb5423723e0b7bea2ab4ce933e13b18e35e56f556"
+      sha256 "a9f0fe1e68693ed4a5e426980ff8a20371855834c0ca38e48fe17652c555f931"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/prnvbn/clocks/releases/download/v#{version}/clocks-linux-arm64"
-      sha256 "93a299e81c455588e888280370d61f7798f0ac1ce5ec2789871d41b475c3298d"
+      sha256 "5cf0a1ad245bb0e15178d893f60f85bb05003c1200c0b4c46ecad4c473a686bd"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/prnvbn/clocks/releases/download/v#{version}/clocks-linux-amd64"
-      sha256 "a4fba8b842497356f4b05a8c93b96ddf0b7ccdf6b0a2f9c703db6b28c38787d2"
+      sha256 "cf024c586309b579e542365b54697c842b902931d74e30effdc0712510cb92f1"
     end
   end
 
