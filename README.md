@@ -33,10 +33,12 @@ While you may search across taps, it is necessary to always use fully qualified 
 ## What packages are available?
 
 With the following commands, you can install the latest generally available (GA) version of each product:
+
 ```sh
 brew install prnvbn/tap/bus
 brew install prnvbn/tap/clocks
 brew install prnvbn/tap/grpcexp
 brew install prnvbn/tap/protoc-gen-sbe-xml
 brew install prnvbn/tap/idgen
+brew install --cask prnvbn/tap/nameplate
 ```
