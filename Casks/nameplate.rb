@@ -1,8 +1,8 @@
 cask 'nameplate' do
-  version '0.1.0'
-  sha256 '1c128fb8a0fccb29f290cc297317457118d3418897c089dbaad31287e8aee9eb'
+  version '0.1.1'
+  sha256 '91876c3a303b9eed5c4a96b3c363ef68b86d02f92c2e956fe0183501cf08ed19'
 
-  url 'https://github.com/prnvbn/Nameplate/releases/download/v0.1.0/Nameplate-0.1.0-macos-arm64.dmg'
+  url 'https://github.com/prnvbn/Nameplate/releases/download/v0.1.1/Nameplate-0.1.1-macos-arm64.dmg'
   name 'Nameplate'
   desc 'Readable window labels in macOS Mission Control'
   homepage 'https://github.com/prnvbn/Nameplate'
